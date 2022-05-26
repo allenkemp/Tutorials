@@ -20,6 +20,8 @@ https://visualstudio.microsoft.com/vs/community/
 ## Visual Studio Code Cheat Sheet for Windows
 https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
 
+## A Nice font for our editor and terminal - Cascadia Code (It is free)
+https://github.com/microsoft/cascadia-code
 ## Some customizations I like to do to my VSC setup
 
 ```
@@ -29,7 +31,7 @@ https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorStyle": "line",
   "editor.fontSize": 16,
-  "editor.fontFamily": "Fira Code, Inconsolata",
+  "editor.fontFamily": "Cascadia Code PL, Fira Code, Inconsolata",
   "editor.fontLigatures": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": false,
@@ -48,7 +50,9 @@ https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
    "workbench.iconTheme": "vscode-icons",
   "workbench.colorCustomizations": {},
   "workbench.colorTheme": "Winter is Coming (Dark Blue)",
-  "zenMode.centerLayout": false
+  "zenMode.centerLayout": false,
+
+  "terminal.integrated.fontFamily": "Cascadia Code PL, monospace",
  }
 ```
 
